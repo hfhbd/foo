@@ -6,5 +6,5 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
-rootProject.name = 'foo'
-include('app')
+rootProject.name = "foo"
+include("app")
