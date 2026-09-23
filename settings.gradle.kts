@@ -10,5 +10,9 @@ pluginManagement {
     includeBuild("build-logic")
 }
 
+plugins {
+    id("foo")
+}
+
 rootProject.name = "foo"
 include("app")
