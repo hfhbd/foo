@@ -6,5 +6,9 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
+pluginManagement {
+    includeBuild("build-logic")
+}
+
 rootProject.name = "foo"
 include("app")
